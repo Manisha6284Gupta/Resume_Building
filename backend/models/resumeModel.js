@@ -57,7 +57,7 @@ const ResumeSchema = new mongoose.Schema({
     skills:[
         {
             name:String,
-            progress:Numer,
+            progress:Number,
 
         },
     ],
