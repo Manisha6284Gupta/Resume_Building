@@ -147,7 +147,7 @@ import axiosInstance from '../utils/axiosInstance';
 import { API_PATHS } from '../utils/apiPaths.js';
 import { Inputs } from './Inputs';
 
-function SignUp({ setCurrentPage }) {
+const SignUp = ({ setCurrentPage }) => {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -192,7 +192,7 @@ function SignUp({ setCurrentPage }) {
           value={fullName}
           onChange={(e) => setFullName(e.target.value)}
           label="Full Name"
-          placeholder="John Doe"
+          placeholder="Full Name"
           type="text"
         />
 
@@ -218,6 +218,7 @@ function SignUp({ setCurrentPage }) {
           Create Account
         </button>
 
+       {/* footer */}
         <p className={styles.switchText}>
           Already have an account?{' '}
           <button
