@@ -28,4 +28,12 @@ A modern web-based Resume Builder built with React that helps users create, prev
 ---
 
 ## 📂 Folder Structure
+src/
+├── components/ # Reusable components like Cards, Forms, Inputs
+├── pages/ # Main pages (Dashboard, ResumeEditor)
+├── utils/ # API paths, Axios instance
+├── context/ # React Context for user/global state
+├── assets/ # Styles, Images
+├── App.jsx # App entry point with routes
+└── main.jsx # Vite entry fil
 
