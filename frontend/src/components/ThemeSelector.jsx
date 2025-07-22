@@ -229,7 +229,7 @@ const ThemeSelector = ({ selectedTheme, setSelectedTheme, resumeData, onClose })
           </div>
         </div>
 
-        {/* Resume Preview */}
+        {/* Right Area */}
         <div className='lg:col-span-3 bg-white rounded-2xl border-gray-100 sm:p-6' ref={resumeRef}>
           <RenderResume
             templateId={selectedTemplate?.theme || ""}
