@@ -98,7 +98,7 @@
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { UserContext } from '../context/UserContext';
-import validateEmail from '../utils/helper.js';
+import {validateEmail} from '../utils/helper.js';
 import axiosInstance from '../utils/axiosInstance.js';
 import { API_PATHS } from '../utils/apiPaths.js';
 import { authStyles as styles } from '../assets/dummystyle';

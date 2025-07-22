@@ -613,6 +613,30 @@ function EditResume() {
       logging: false,
     });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // ❌ Remove this line: it's causing the error
     // document.body.removeChild(fixedThumbnail);
 
@@ -645,6 +669,23 @@ function EditResume() {
     setIsLoading(false);
   }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

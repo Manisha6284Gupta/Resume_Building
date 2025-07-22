@@ -2,7 +2,8 @@ import React from 'react'
 import { modalStyles as styles } from '../assets/dummystyle'
 import { X} from 'lucide-react'
 const Modal = ({
-  children, isOpen,  onClose, title, hideHeader
+  children, isOpen,  onClose, title, hideHeader, showActionBtn, actionBtnIcon=null,
+  actionBtnText, onActionClick = () => { },
 }) => {
   if(!isOpen) return null
   return (
@@ -13,6 +14,13 @@ const Modal = ({
             <h3 className= {styles.title}>
               {title}
             </h3>
+            {showActionBtn && (
+              <button className={styles.actionButton}  onClick={onActionClick}>
+                {actionBtnIcon}
+                {actionBtnText}
+
+              </button>
+            )}
 
           </div>
 

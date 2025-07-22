@@ -9,7 +9,7 @@ const Progress =(progress = 0, total = 5, color, bgColor) => {
             }`}
             style={{
                 backgroundColor:
-                index<progress
+                index < progress
                 ? color || "rgba(1,1,1,1)"
                 :bgColor || "rgba(1,1,1,0.1)"
             }}>
